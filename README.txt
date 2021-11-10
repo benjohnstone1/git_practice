@@ -32,7 +32,6 @@ This is "fast forward" because Git recognizes that branch_name contains the most
 
 Merge conflict (e.g. if had committed a change in master first)
 
-Like this!
 
 
 ## Git Teamwork (Push, Pull) ##
