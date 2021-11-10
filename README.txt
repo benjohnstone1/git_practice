@@ -20,3 +20,19 @@ We can unstage that file from the staging area using
 1) git reset HEAD filename
 2) git reset commit_SHA #(can reset the Head to a previous commit, supply first 7 digits of commit)
 
+## Git Branching ##
+
+1) git branch // tells you which branch you are on
+2) git branch new_branch // create new branch called new_branch
+3) git checkout branch_name // switch branch
+3) git merge branch_name // merge giver branch into receiver branch
+
+In our case if we had a separate branch we would first checkout the master branch then call git merge branch_name
+This is "fast forward" because Git recognizes that branch_name contains the most recent commit (what if it didn't?)
+
+Merge conflict (e.g. if had committed a change in master first)
+
+Like this!
+
+
+## Git Teamwork (Push, Pull) ##
