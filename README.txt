@@ -27,10 +27,21 @@ We can unstage that file from the staging area using
 3) git checkout branch_name // switch branch
 3) git merge branch_name // merge giver branch into receiver branch
 
+## Merge Conflict ##
 In our case if we had a separate branch we would first checkout the master branch then call git merge branch_name
 This is "fast forward" because Git recognizes that branch_name contains the most recent commit (what if it didn't?)
 
 Merge conflict (e.g. if had committed a change in master first)
+
+## Git Branch Deleting ##
+In Git, branches are usually a means to an end. You create them to work on a new project feature, but the end goal is to merge that feature into the master branch. After the branch has been integrated into master, it has served its purpose and can be deleted.
+
+1) git branch -d branch_name // deletes branch_name
+
+
+## Git Remotes ##
+
+1) git remote // like branches will list remote git repos
 
 
 
