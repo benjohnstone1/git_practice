@@ -41,7 +41,12 @@ In Git, branches are usually a means to an end. You create them to work on a new
 
 ## Git Remotes ##
 
-1) git remote // like branches will list remote git repos
+1) git remote -v // like branches will list remote git repos
+2) git clone remote_location clone_name //remote_location could be a web address, clone_name is name of directory 
+3) git fetch // An easy way to see if changes have been made to the remote and bring the changes down to your local copy
+4) git merge origin/master // This will merge any changes
+5) git push origin your_branch_name //this pushes branch up to the remote origin (you can then decide to merge from there)
+
 
 
 
